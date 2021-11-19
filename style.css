@@ -34,13 +34,32 @@ li {
     background-color: #1F2937;
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
     padding: 100px 350px;
     flex: 1;
+}
+
+.secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button.signup {
+    color: #e5e7eb;
+    text-decoration: none;
+    background: #3882f6;
+    border-radius: 5px;    
+}
+
+a.signup {
+    padding: 20px 40px;
 }
 
 .column {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 .placeholder {
@@ -49,6 +68,9 @@ li {
     background-color: grey;
     display: flex;
     flex-shrink: 0;
+    color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
 }
 
 .title {
